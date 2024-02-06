@@ -103,6 +103,7 @@ eval $(opam env --switch=default --set-switch)
 eval "$(starship init zsh)"
 
 
+export EDITOR=nvim
 alias e="nvim"
 
 function load_opam () {
